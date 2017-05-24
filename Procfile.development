@@ -1,0 +1,2 @@
+postgresql: postgres -D vendor/postgresql
+hanami: bundle exec hanami server
