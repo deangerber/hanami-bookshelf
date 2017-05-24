@@ -26,6 +26,14 @@ psql -p 5432 -h localhost -d postgres
 CREATE USER postgres SUPERUSER;
 ~~~
 
+Development database
+
 ~~~ bash
 bundle exec hanami db prepare
+~~~
+
+Test database
+
+~~~ bash
+HANAMI_ENV=test bundle exec hanami db prepare
 ~~~
