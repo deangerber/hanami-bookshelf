@@ -151,7 +151,7 @@ GEM
     transproc (1.0.2)
     url_mount (0.2.1)
       rack
-    xpath (2.0.0)
+    xpath (2.1.0)
       nokogiri (~> 1.3)
 
 PLATFORMS
