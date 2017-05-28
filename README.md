@@ -1,10 +1,21 @@
 # Hanami Bookshelf
 
+A implementation of the hanami getting started guide.
+
+## Basic instructions
+
+To start the site.
+
 ~~~ bash
 foreman start --procfile Procfile.development
 ~~~
 
-Point browser to http://localhost:2300
+To access the site point you browser to http://localhost:2300
+
+## Differences from guide
+
+* Project created to use postgresql
+* Test implemented using rspec
 
 ## Setup
 
@@ -37,3 +48,7 @@ Test database
 ~~~ bash
 HANAMI_ENV=test bundle exec hanami db prepare
 ~~~
+
+## References
+
+* [Hanami - Getting started guide](http://hanamirb.org/guides/getting-started/)
