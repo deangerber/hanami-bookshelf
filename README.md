@@ -1,6 +1,6 @@
 # Hanami Bookshelf
 
-A implementation of the hanami getting started guide.
+An implementation of the hanami getting started guide.
 
 ## Basic instructions
 
